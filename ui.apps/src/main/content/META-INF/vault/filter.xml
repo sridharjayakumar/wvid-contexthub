@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/sample">
+        <exclude pattern="/apps/sample/install" />
+    </filter>
+    <filter root="/etc/cloudsettings/default/contexthub/dnb"/>
+    <filter root="/etc/cloudsettings/default/contexthub/dnb-persisted-store"/>
+    <filter root="/etc/cloudservices/sample" mode="update" />
+</workspaceFilter>
