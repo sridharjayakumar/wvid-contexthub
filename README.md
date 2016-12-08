@@ -28,5 +28,7 @@ src/main/content/jcr_root/apps/sample/clientlibs
 How to configure?
 -----------------
 WVID requires a user key which can be configured in two ways:
+
 1. At install: mvn clean install -PautoInstallPackage -Dwvid.key=ADE9999 (will set wvid.key in src/main/content/jcr_root/apps/sample/clientlibs/dependencies/iframe.js)
+
 2. Using a servlet (com.adobe.poc.sample.core.servlets.ConfigurationParserServlet.java)
