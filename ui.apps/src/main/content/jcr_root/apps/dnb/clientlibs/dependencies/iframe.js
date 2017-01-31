@@ -11,6 +11,7 @@ tag.src = "http://ecf.d41.co/sync/";
 document.getElementsByTagName('head')[0].appendChild(tag);
 
 var dnbStore = ContextHub.getStore("dnb-persisted-store");
+//Set WVID Key using cloud config
 var wvid_key = "${wvid.key}";
 
 dnbvid.getData(wvid_key, "json", "t", function (dnb_Data) {

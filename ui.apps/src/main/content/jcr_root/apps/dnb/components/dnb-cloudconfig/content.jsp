@@ -34,7 +34,7 @@
     <img src="<%= xssAPI.encodeForHTMLAttr(thumbnailPath) %>" alt="<%= xssAPI.encodeForHTMLAttr(serviceName) %>" style="float: left;" />
     <ul style="float: left; margin: 0px;">
         <li><div class="li-bullet"><strong><%=
-        i18n.get("To get a free trial account visit www.adobe.com/sample.html") %>
+        i18n.get("To get a free trial account visit www.adobe.com/dnb.html") %>
         </strong></div></li>
         <li><div class="li-bullet"><strong><%= i18n.get("WVID") %>: </strong><%=
         xssAPI.encodeForHTML(properties.get("wvid", "")) %></div></li>

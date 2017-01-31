@@ -2,7 +2,7 @@ D&B WVID (Web Visitor ID) ContextHub for AEM
 
 What it does?
 -------------
-Provides information about the visitor and their company based on cookies and IP. The component can be used to analyze visitor data and define segmentation rules based on visitor and company attributes.
+Provides information about the visitor and their company based on cookies and IP. The component can be used to analyze visitor data and define segmentation rules based on visitor and company attributes. For more info visit http://www.dnb.com/products/marketing-sales/dnb-web-visitor-id.html
 
 How to install?
 ---------------
@@ -22,13 +22,9 @@ How is D&B WVID integrated?
 WVID pixel uses an iframe and two JS dependencies (local dnb_coretag_v2.min.js and remote http://ecf.d41.co/sync/) which are loaded as clientlibs dependencies.
 Once loaded WVID pixel makes two external API calls to fetch the visitor data using cookies and IP as input. After the data is fetched, it is being persisted in the store.
 
-Package containing WVID pixel dependencies and sample store and renderer implementation:
-src/main/content/jcr_root/apps/sample/clientlibs
+Package containing WVID pixel dependencies and dnb store and renderer implementation:
+src/main/content/jcr_root/apps/dnb/clientlibs
 
 How to configure?
 -----------------
-WVID requires a user key which can be configured in two ways:
-
-1. At install: mvn clean install -PautoInstallPackage -Dwvid.key=ADE9999 (will set wvid.key in src/main/content/jcr_root/apps/sample/clientlibs/dependencies/iframe.js)
-
-2. Using a servlet (com.adobe.poc.sample.core.servlets.ConfigurationParserServlet.java)
+WVID requires a user key which can be configured using cloud config via servlet (com.adobe.poc.dnb.core.servlets.ConfigurationParserServlet.java)

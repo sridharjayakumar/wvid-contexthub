@@ -1,4 +1,4 @@
-package com.adobe.poc.sample.core.servlets;
+package com.adobe.poc.dnb.core.servlets;
 
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -12,7 +12,7 @@ import com.day.cq.commons.inherit.InheritanceValueMap;
 import com.day.cq.wcm.webservicesupport.Configuration;
 import com.day.cq.wcm.webservicesupport.ConfigurationManager;
 
-@SlingServlet(methods = "GET", paths = "/bin/sample/properties")
+@SlingServlet(methods = "GET", paths = "/bin/dnb/properties")
 public class ConfigurationParserServlet extends SlingSafeMethodsServlet {
 
     /**
@@ -47,7 +47,7 @@ public class ConfigurationParserServlet extends SlingSafeMethodsServlet {
 
     private void getwvidAndintegrationToken(InheritanceValueMap pageProperties) {
         String[] services = (String[]) pageProperties.getInherited("cq:cloudserviceconfigs", String[].class);
-        Configuration cfg = cfgMgr.getConfiguration("sample", services);
+        Configuration cfg = cfgMgr.getConfiguration("dnb", services);
         if (cfg != null) {
             this.wvid = (String) cfg.get("wvid", null);
         }
