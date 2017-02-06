@@ -25,7 +25,7 @@
     </parent>
     <artifactId>dnb.core</artifactId>
     <packaging>bundle</packaging>
-    <name>Sample - Core</name>
+    <name>DnB WVID - Core</name>
     <description>Core bundle for Sample</description>
     <build>
         <plugins>
