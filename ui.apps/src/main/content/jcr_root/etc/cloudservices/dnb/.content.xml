@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="dnb"
+        cq:designPath="/etc/designs/cloudservices/dnb"
+        cq:lastModified="{Date}2015-10-26T11:26:01.679-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:lastModified="{Date}2015-10-26T11:26:01.676-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DnB Configuration"
+        sling:resourceType="/apps/dnb/components/cloudservices/dnbpage">
+        <public
+            jcr:primaryType="nt:unstructured"
+            wvid=""/>
+    </jcr:content>
+</jcr:root>
