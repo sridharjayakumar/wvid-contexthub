@@ -30,7 +30,7 @@
    <!-- ====================================================================== -->
    <artifactId>dnb.ui.apps</artifactId>
    <packaging>content-package</packaging>
-   <name>Sample - UI apps</name>
+   <name>DnB WVID - UI apps</name>
    <description>UI apps package for Sample</description>
    <!-- <scm>
         <connection></connection>
