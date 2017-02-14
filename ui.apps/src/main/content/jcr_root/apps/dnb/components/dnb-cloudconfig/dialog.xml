@@ -5,12 +5,12 @@
     <items jcr:primaryType="cq:WidgetCollection">
         <general
             jcr:primaryType="nt:unstructured"
-            title="Sample Settings"
+            title="DnB WVID Settings"
             xtype="panel">
             <items jcr:primaryType="cq:WidgetCollection">
                 <tmsserverurl
                         jcr:primaryType="cq:Widget"
-                        fieldLabel="PID"
+                        fieldLabel="WVID Key"
                         fieldDescription="WVID key"
                         name="./wvid"
                         xtype="textfield">

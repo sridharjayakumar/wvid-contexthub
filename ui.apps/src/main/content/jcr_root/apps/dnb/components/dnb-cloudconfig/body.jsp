@@ -81,8 +81,7 @@
 </div>
 <cq:include script="content.jsp" />
     <%
-        if (properties.get("integrationToken", "").isEmpty()
-                || properties.get("pid", "").isEmpty()) {
+        if (properties.get("wvid", "").isEmpty()) {
     %>
     <cq:include script="opendialog.jsp" />
     <%
