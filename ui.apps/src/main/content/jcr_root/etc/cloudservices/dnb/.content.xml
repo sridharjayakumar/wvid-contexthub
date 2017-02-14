@@ -4,15 +4,15 @@
     <jcr:content
         cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
         jcr:primaryType="cq:PageContent"
-        jcr:title="DnB Configuration"
+        jcr:title="DnB Web Visitor ID Configuration"
 		sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
         allowMultiple="{Boolean}true"
-        description="TODO:Connector description."
-        descriptionExtended="TODO:Connector description extended."
+        description="Provides information about the visitor and their company based on cookies and IP."
+        descriptionExtended="The component can be used to analyze visitor data and define segmentation rules based on visitor and company attributes."
         inclusionRank="{Long}202"
         ranking="10"
-        serviceAdminUrl="TODO:http://www.adobe.com/sample/getting-started"
-        serviceUrl="TODO:http://www.adobe.com/sample/learn-more"
+        serviceAdminUrl=""
+        serviceUrl="http://www.dnb.com/products/marketing-sales/dnb-web-visitor-id.html"
         thumbnailPath="/apps/dnb/templates/dnb-servicepage/thumbnail.png"
-        serviceUrlLabel="TODO:DnB Connector"/>
+        serviceUrlLabel="DnB WVID Connector"/>
 </jcr:root>
