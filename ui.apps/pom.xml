@@ -31,7 +31,7 @@
    <artifactId>dnb.ui.apps</artifactId>
    <packaging>content-package</packaging>
    <name>DnB WVID - UI apps</name>
-   <description>UI apps package for Sample</description>
+   <description>UI apps package for DnB WVID Connector</description>
    <!-- <scm>
         <connection></connection>
         <developerConnection></developerConnection>
